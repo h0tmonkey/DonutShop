@@ -1,0 +1,263 @@
+:root {
+  --pink: #f195b2;
+  --pinkhover: #eb6891;
+  --cream: #f5e1a4;
+  --creamhover: #e0c287;
+  --chocolate: #7b3f22;
+  --chocolatehover: #a15c3d;
+}
+
+@media (max-width: 768px) {
+  .carousel-text-container.carousel-caption {
+    bottom: 25% !important;
+  }
+  .navbar-box {
+    background-color: var(--cream);
+  }
+  .topbar {
+    display: none;
+  }
+  .navbar-box::before {
+    display: none;
+  }
+  .d-block.w-100 {
+    height: 300px !important;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    top: -32px;
+  }
+  .mobile-navbar-brand {
+    display: block;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: -65px;
+    height: 135px;
+    z-index: 200;
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+  }
+  .carousel {
+    height: 340px;
+    margin-top: 0;
+    z-index: 1;
+  }
+  /* mini about  */
+  .miniabout-container {
+    text-align: center;
+    margin-top: -146px;
+    padding-top: 0px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .about-atasi {
+    display: block;
+  }
+  .navbar-toggler-icon {
+    z-index: 100000000000;
+  }
+  /* chococococococococococolatatatata */
+  .donut-img-6 {
+    width: 100%;
+    object-fit: cover;
+  }
+  .chocolate-atasi {
+    display: block;
+  }
+  .col,
+  .col-1,
+  .col-10,
+  .col-11,
+  .col-12,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-auto,
+  .col-lg,
+  .col-lg-1,
+  .col-lg-10,
+  .col-lg-11,
+  .col-lg-12,
+  .col-lg-2,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-6,
+  .col-lg-7,
+  .col-lg-8,
+  .col-lg-9,
+  .col-lg-auto,
+  .col-md,
+  .col-md-1,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-auto,
+  .col-sm,
+  .col-sm-1,
+  .col-sm-10,
+  .col-sm-11,
+  .col-sm-12,
+  .col-sm-2,
+  .col-sm-3,
+  .col-sm-4,
+  .col-sm-5,
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-8,
+  .col-sm-9,
+  .col-sm-auto,
+  .col-xl,
+  .col-xl-1,
+  .col-xl-10,
+  .col-xl-11,
+  .col-xl-12,
+  .col-xl-2,
+  .col-xl-3,
+  .col-xl-4,
+  .col-xl-5,
+  .col-xl-6,
+  .col-xl-7,
+  .col-xl-8,
+  .col-xl-9,
+  .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 19px;
+  }
+  /* Owl-carousel  */
+  .carousel-container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .owl-price {
+    left: 39%;
+    z-index: 10000;
+  }
+  .owl-carousel .owl-item img {
+    left: 23%;
+    position: absolute;
+    display: block;
+    width: 57% !important;
+  }
+  .footer-himself {
+    background-color: var(--cream);
+    margin-top: 150px;
+    text-align: center;
+    height: 400px;
+  }
+  .owl-nav {
+    top: 98%;
+    right: 40%;
+    bottom: 0px;
+  }
+  .owl-item .item {
+    /* width: 88%; */
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .owl-text {
+    margin-top: 13px;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    height: 31vh;
+  }
+  .chocolate-image {
+    object-fit: cover;
+  }
+  .contact-button {
+    padding-left: 129px;
+    padding-right: 129px;
+  }
+  .contact-atasi {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .d-block.w-100 {
+    height: 300px !important;
+  }
+  .miniabout-container {
+    text-align: center;
+    margin-top: -146px !important;
+    padding-top: 164px !important;
+  }
+  .gallery-atasi .about-atasi {
+    display: flex;
+  }
+  .navbar-brand {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    height: 0;
+  }
+  .carousel-caption {
+    bottom: 13% !important;
+  }
+  .carousel-toptext {
+    font-size: 21px;
+  }
+  .carousel-text-2001 {
+    font-size: 25px;
+  }
+  .carousel-text {
+    font-size: 31px;
+  }
+  .owl-nav .fa.fa-angle-left {
+    font-size: 38px;
+  }
+  .owl-nav .fa.fa-angle-right {
+    font-size: 38px;
+  }
+  .navbar-collapse.collapse {
+    border-radius: 60px;
+    height: 530px !important;
+    background-color: var(--chocolate) !important;
+    z-index: 400;
+    padding: 40px;
+    width: 100%;
+    margin: 0;
+  }
+  .carousel-learnmore {
+    display: none;
+  }
+}
+
+@media ((min-width: 768px) and (max-width: 1024px)) {
+  .about-atasi {
+    width: 750px;
+  }
+  .carousel-inner {
+    margin-top: -57px;
+    height: 45vh;
+  }
+  .miniabout-container {
+    margin-top: 20px;
+  }
+  .navbar-collapse.collapse {
+    margin-left: -30px;
+  }
+}
+@media ((min-width: 1024px) and (max-width: 1200px)) {
+}

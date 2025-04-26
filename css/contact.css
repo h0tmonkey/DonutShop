@@ -1,0 +1,100 @@
+:root {
+  --pink: #f195b2;
+  --pinkhover: #eb6891;
+  --cream: #f5e1a4;
+  --creamhover: #e0c287;
+  --chocolate: #7b3f22;
+  --chocolatehover: #a15c3d;
+}
+
+.d-block.w-100 {
+  z-index: 1;
+  filter: brightness(50%);
+}
+
+.carousel-inner {
+  margin-top: -57px;
+  height: 77vh;
+}
+.carousel-text-container.carousel-caption {
+  bottom: 25% !important;
+}
+.intro-text-atasi {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.intro-home {
+  color: white;
+}
+.intro-home:hover {
+  color: #acacac;
+  text-decoration: none;
+  cursor: pointer;
+}
+.intro-about {
+  color: white;
+}
+.intro-about:hover {
+  color: #acacac;
+  text-decoration: none;
+  cursor: pointer;
+}
+.fa-solid.fa-circle {
+  color: white;
+}
+.carousel-toptext {
+  font-size: 64px !important;
+}
+.contact-atasi {
+  margin-top: 200px;
+  text-align: center;
+}
+.contact-devider-atasi {
+  display: flex;
+  justify-content: center;
+}
+.message-otchim {
+  padding-top: 50px;
+  display: flex;
+  padding-bottom: 20px;
+}
+.contact-button {
+  background-color: var(--cream);
+  color: var(--chocolate);
+  border-radius: 100px;
+  height: 58px;
+  padding-left: 200px;
+  padding-right: 200px;
+  border: none;
+  margin-top: 10px;
+  font-family: cursive;
+  font-weight: 800 !important;
+}
+.contact-button:hover {
+  background-color: var(--creamhover);
+}
+input {
+  border-radius: 10px;
+  border: 0.1px solid;
+  width: 100%;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+textarea {
+  padding-left: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.contact-atasi .container {
+  max-width: 700px;
+}
+.carousel-caption {
+  bottom: 45% !important;
+}
