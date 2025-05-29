@@ -11,7 +11,7 @@ $message = strip_tags($_POST['message']);
 
 $to = "ismetpepsi@gmail.com"
 $body = "New message from your website:\n\nName: $name\nEmail: $email\nSubject: $subject\nMessage:\n$message"
-$headers = "From: $email\r\nReply-To: $email\r\n;
+$headers = "From: $email\r\nReply-To: $email\r\n";
 
 if (!mail($to, $subject, $body, $headers)) {
 http_response_code(500);
